@@ -1,68 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#000000">
-    <meta name="description" content="Web site created using CloudBase Webify">
-    <title>Hello Webify！</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-                sans-serif;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-        code {
-            font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-                monospace;
-        }
-        .App {
-            text-align: center;
-        }
-
-        .App-logo {
-            height: 40vmin;
-            pointer-events: none;
-        }
-
-        @media (prefers-reduced-motion: no-preference) {
-            .App-logo {
-                animation: App-logo-spin infinite 20s linear;
-            }
-        }
-
-        .App-header {
-            background-color: #efefef;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            font-size: calc(10px + 2vmin);
-            color: black;
-        }
-
-        .App-link {
-            color: #108ee9;
-        }
-    </style>
+    <meta name="description" content="Dmego Home">
+    <meta name="keywords" content="Dmego,Homepage">
+    <meta name="author" content="Dmego">
+    <title>GooGuJiang Home</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/onlinewebfonts.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/vno.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/diy.css">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+    <link rel="icon" href="./favicon.ico">
 </head>
 
 <body>
-    <div id="root">
-        <div class="App">
-            <header class="App-header">
-                <img src="https://main.qcloudimg.com/raw/2f3b21706c37e8685efe5c60b26ceb24.png" class="App-logo" alt="logo">
-                <p>Welcome to Webify！</p>
-                <a class="App-link" href="https://webify.cloudbase.net/"
-                    target="_blank" rel="noopener noreferrer">webify.cloudbase.net</a>
-            </header>
+    <span class="mobile btn-mobile-menu">
+        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
+        <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>
+    </span>
+    <header id="panel" class="panel-cover" >
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content">
+                    <div class="ih-item circle effect right_to_left">            
+                        <a href="#" title="" class="blog-button">
+                            <div class="img"><img src="./img/img.jpg" alt="img" class="js-avatar iUp profilepic"></div>
+                            <div class="info iUp">
+                                <div class="info-back">
+                                    <h2> 
+                                        
+                                            看什么看
+                                        
+                                    </h2>
+                                    <p>
+                                        
+                                            这里没东西哦~   
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- <a href="#" title="Dmego Home" class="profilepic">
+                        <img src="./img/logo2.jpg" width="80" alt="Dmego`s logo" class="js-avatar iUp show" />
+                    </a> -->
+                    <h1 class="panel-cover__title panel-title iUp">
+                        <a href="#" title="Dmego Home">咕谷酱</a>
+                    </h1>
+                    <p class="panel-cover__subtitle panel-subtitle iUp">咕咕咕！！！</p>
+                    <hr class="panel-cover__divider iUp" />
+                    <p id="description" class="panel-cover__description iUp">「世界に忘れられた」
+                        <br/>
+                        <strong>-咕谷酱</strong>
+                    </p>
+                    <div class="navigation-wrapper iUp">
+                        <div>
+                            <nav class="cover-navigation cover-navigation--primary">
+                                <ul class="navigation">
+                                    <li class="navigation__item">
+                                        <a href="/" class="blog-button">首页</a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://space.bilibili.com/21141864" class="blog-button" target="_blank">BILIBILI</a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://music.163.com/#/user/home?id=284412558" class="blog-button" target="_blank">网易云</a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://t.me/GuGoo_qwq" class="blog-button" target="_blank">Telegram</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="iUp">
+                            <nav class="cover-navigation navigation--social">
+                                <ul class="navigation">
+                                    <li class="navigation__item">
+                                        <a href="https://github.com/googujiang/" title="github" target="_blank">
+                                            <i class='social iconfont icon-github'></i>
+                                            <span class="label">Github</span>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="mailto:gu@gumoe.cc" title="email">
+                                            <i class='social iconfont icon-email'></i>
+                                            <span class="label">Email</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay cover-slate"></div>
         </div>
-    </div>
+        <!-- <div class="beian iUp">
+            <a class="icp" href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">XXX</a>
+            <a class="gwab" href="http://www.beian.gov.cn/portal/recordQuery" target="_blank">XXX</a>
+        </div> -->
+        <div class="remark iUp">
+            <p class="power">Powered By 
+                <a href="https://webify.cloudbase.net/" target="_blank"> CloudBase Webify </a>
+            </p>
+        </div>
+    </header>
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/fetch.min.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
 
 </html>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- 想什么呢没代码 -->
