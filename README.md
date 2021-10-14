@@ -2,5 +2,5 @@
 
 基于 https://github.com/dmego/home.github.io
 
-主域名 https://gumoe.cc
+个人博客 https://gumoe.cc
 
