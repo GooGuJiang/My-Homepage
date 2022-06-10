@@ -1,5 +1,0 @@
-.gauss {
-    background: url('https://www.bing.com/th?id=OHR.Aldeyjarfoss_ZH-CN0106567013_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp') no-repeat;/* 引入背景图片 */
-    filter: blur(3px);
-    /* 高斯模糊 */
-}
